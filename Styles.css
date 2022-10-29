@@ -15,7 +15,7 @@ body{
     background-color:rgb(241, 238, 238);
 }
 
-/*1. ХЕДЕР*/
+/*1. header*/
 
 /*1.1 Стили верхней части хедера*/
 
@@ -42,6 +42,7 @@ body{
     line-height: 80px;
     font-family: 'Roboto Mono', monospace;
     font-size: 26px;
+    transition: .8s;
 }
 .navigationBar-Menu a:hover{
     background-color: #616159;
@@ -72,6 +73,7 @@ body{
     padding: 0 10px;
     height: 40px;
     line-height: 40px;
+    transition: .4s;
 }
 .navigationListBar-Menu a:hover{
     background-color: rgb(36, 12, 24);
@@ -125,4 +127,36 @@ body{
 .search{
     margin-top: 10px;
     margin-left: 100px;
+}
+
+/*2. Main*/
+
+/*2.1 Стили самого мейна*/
+.main{
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    color: #2f3640;
+    font-size: 18px;
+}
+.main h1{
+    text-align: center;
+}
+
+/*2.2 Стили блоков с контентом*/
+
+.main-Content-Upper-BlockNews{
+    background-color: white;
+    padding: 10px 15px;
+}
+.main-Content-Central-OneBlock-Text{
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
+}
+.main-Content-Central-TwoBlock-Text{
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 15px;
 }
